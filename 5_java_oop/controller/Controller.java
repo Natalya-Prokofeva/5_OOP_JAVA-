@@ -57,7 +57,7 @@ public class Controller {
     public List<User> studentsInGroup() {
         List<User> studentsGroup = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите ID студентов, закончите - введите 0");
+        System.out.println("Введите ID студентов, чтобы закончить - введите 0");
 
         while (true) {
             int number = scanner.nextInt();
